@@ -4,7 +4,7 @@ function getNavbarHeader() {
     `
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
         <div class="container-lg">
-            <a class="navbar-brand text-black fs-3" href="http://localhost:8000/index.html">
+            <a class="navbar-brand text-black fs-3" href="http://tyeefellows.com/index.html">
                 <i class="bi bi-heart-pulse me-2" style='font-size:50px;'></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,27 +17,27 @@ function getNavbarHeader() {
                         About
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="http://localhost:8000/about-me.html">About me</a></li>
-                        <li><a class="dropdown-item" href="http://localhost:8000/documents/Fellows_CV.pdf" download="Fellows_CV.pdf">CV</a></li>
+                        <li><a class="dropdown-item" href="http://tyeefellows.com/about-me.html">About me</a></li>
+                        <li><a class="dropdown-item" href="http://tyeefellows.com/documents/Fellows_CV.pdf" download="Fellows_CV.pdf">CV</a></li>
                     </ul>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="http://localhost:8000/research.html">Research</a>
+                    <a class="nav-link" href="http://tyeefellows.com/research.html">Research</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="http://localhost:8000/publications.html">Publications</a>
+                    <a class="nav-link" href="http://tyeefellows.com/publications.html">Publications</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="http://localhost:8000/media.html">Media</a>
+                    <a class="nav-link" href="http://tyeefellows.com/media.html">Media</a>
                     </li>
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Hobbies
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="http://localhost:8000/hobbies/coding-projects.html">Coding</a></li>
-                        <li><a class="dropdown-item" href="http://localhost:8000/hobbies/climbing.html">Climbing</a></li>
-                        <li><a class="dropdown-item" href="http://localhost:8000/hobbies/photography.html">Photography</a></li>
+                        <li><a class="dropdown-item" href="http://tyeefellows.com/hobbies/coding-projects.html">Coding</a></li>
+                        <li><a class="dropdown-item" href="http://tyeefellows.com/hobbies/climbing.html">Climbing</a></li>
+                        <li><a class="dropdown-item" href="http://tyeefellows.com/hobbies/photography.html">Photography</a></li>
                     </ul>
                     </li>
                 </ul>
@@ -56,7 +56,7 @@ function getNavbarFooter() {
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="http://localhost:8000/"></use></svg>
+            <svg class="bi" width="30" height="24"><use xlink:href="http://tyeefellows.com/aboue-me.html"></use></svg>
         </a>
         <span class="mb-3 mb-md-0 text-muted">© 2022 by Tyee Fellows</span>
         </div>
