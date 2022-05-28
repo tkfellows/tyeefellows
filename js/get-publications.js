@@ -95,3 +95,14 @@ function displayName(){
       };
       document.head.appendChild(script2);
 }});
+
+const THESIS_DATA_URL = 'https://open.library.ubc.ca/api_endpoint/oc2-index.library.ubc.ca/collections/24/items/1.0166301/_statistics';
+
+async function fetchThesisData() {
+    const response = await fetch(THESIS_DATA_URL);
+    const data = await response.json();
+    console.log(data);
+    return data;
+}
+
+fetchThesisData();
