@@ -55,7 +55,7 @@ function displayName(){
                             <div class="__dimensions_badge_embed__" data-doi="${data.doi}"  data-style="small_circle"></div>
                         </div>
                         <div class="col-3 col-sm-3 col-md-1 col-lg-1">
-                            <a class="navbar-brand" href="${data.url}">
+                            <a class="navbar-brand" href="${data.url}" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
                                 <i class="bi bi-file-pdf pe-3" style='font-size:60px; color: black;'></i>
                             </a>
                         </div>
