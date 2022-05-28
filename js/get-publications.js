@@ -15,7 +15,7 @@ function boldString(str, substr) {
   }
 document.addEventListener('DOMContentLoaded', function() {
 
-var doiList = ["10.36834/cmej.69322","10.9778/cmajo.20180204","10.1086/705124","10.1073/pnas.1603221113", "10.14288/1.0166301"];
+var doiList = ["10.36834/cmej.69322","10.9778/cmajo.20180204","10.1086/705124","10.1073/pnas.1603221113"];
 displayName.apply(this, doiList);
 
 function displayName(){
@@ -95,26 +95,3 @@ function displayName(){
       };
       document.head.appendChild(script2);
 }});
-
-const THESIS_DATA_URL = 'https://open.library.ubc.ca/api_endpoint/oc2-index.library.ubc.ca/collections/24/items/1.0166301/_statistics';
-
-async function fetchThesisData() {
-    const response = await fetch(THESIS_DATA_URL, {
-          "headers": {
-            "accept": "*/*",
-            "accept-language": "en-US,en;q=0.9",
-            "content-type": "application/json"
-          },
-          "referrer": "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0166301",
-          "referrerPolicy": "strict-origin-when-cross-origin",
-          "body": null,
-          "method": "GET",
-          "mode": "cors",
-          "credentials": "include"
-        });
-    const data = await response.json();
-    console.log(data);
-    return data;
-}
-
-fetchThesisData();
