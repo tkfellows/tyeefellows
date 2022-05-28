@@ -109,7 +109,7 @@ async function fetchThesisData() {
           "referrerPolicy": "strict-origin-when-cross-origin",
           "body": null,
           "method": "GET",
-          "mode": "",
+          "mode": "cors",
           "credentials": "include"
         });
     const data = await response.json();
