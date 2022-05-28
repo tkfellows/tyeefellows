@@ -48,10 +48,10 @@ function displayName(){
                 `
                 <div class="container-fluid px-4 py-2">
                     <div class="row d-flex justify-content-between align-items-center">
-                        <div class="col-2 col-sm-3 col-md-1 col-lg-1">
+                        <div class="col-2 col-sm-3 col-md-1 col-lg-1" style='text-align: center;'>
                             <div style="@media only screen and (max-device-width: 400px) { { max-width: 10; } }" id="pubData" data-badge-popover="right" data-badge-type="donut" data-doi="${data.doi}" data-hide-no-mentions="true" class="altmetric-embed"></div>
                         </div>
-                        <div class="col-2 col-sm-3 col-md-1 col-lg-1">
+                        <div class="col-2 col-sm-3 col-md-1 col-lg-1" style='text-align: center;'>
                             <div class="__dimensions_badge_embed__" data-doi="${data.doi}"  data-style="small_circle"></div>
                         </div>
                         <div class="col-3 col-sm-3 col-md-1 col-lg-1">
@@ -60,7 +60,7 @@ function displayName(){
                             </a>
                         </div>
                         <div class="col-12 col-sm-12 col-md-8 col-lg-9" >
-                            <p1 class="fs-5 text-start" stye="text-align: justify; font-size: 0.5em">${data.title}</p1><br>
+                            <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">${data.title}</p1><br>
                             <p1 class="fs-6 text-start">${boldName}</p1><br>
                             <p1 class="lead fs-6 text-start"><i>${data.journal.bold()}</i>. ${longEnUSFormatter.format(dateObj)}</p1>
                         </div>
