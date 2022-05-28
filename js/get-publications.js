@@ -99,7 +99,19 @@ function displayName(){
 const THESIS_DATA_URL = 'https://open.library.ubc.ca/api_endpoint/oc2-index.library.ubc.ca/collections/24/items/1.0166301/_statistics';
 
 async function fetchThesisData() {
-    const response = await fetch(THESIS_DATA_URL);
+    const response = await fetch(THESIS_DATA_URL, {
+          "headers": {
+            "accept": "*/*",
+            "accept-language": "en-US,en;q=0.9",
+            "content-type": "application/json"
+          },
+          "referrer": "https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0166301",
+          "referrerPolicy": "strict-origin-when-cross-origin",
+          "body": null,
+          "method": "GET",
+          "mode": "",
+          "credentials": "include"
+        });
     const data = await response.json();
     console.log(data);
     return data;
