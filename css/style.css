@@ -99,3 +99,32 @@
   .fadeIn-right{
     left: 80%;
   }
+
+.hover-right span {
+    display: none;
+    margin-left: 60px;
+    font-size: 34px;
+}
+
+.hover-right:hover {
+    transform: translateX(-10px);
+    transition: all 0.3s ease-in;
+}
+
+.hover-right:hover span {
+    display: inline-block;
+    animation-duration: 0.3s;
+    animation-name: slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        font-size: 12px;
+    }
+    to {
+        opacity: 100;
+        font-size: 34px;
+
+    }
+}
