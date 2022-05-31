@@ -17,6 +17,7 @@
     </style>
     <!-- Custom JS Scripts -->
     <script defer src="../js/header-footer.js"></script> 
+    <script defer src="../js/get-demo-video.js"></script> 
 
 </head>
 <body>
@@ -71,6 +72,7 @@
                                 EDSurvey
                             </button>
                             <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#edSurvey-modal">Demo</a></li>
                               <li><a class="dropdown-item" href="https://github.com/tkfellows/EDSurvey">Source code</a></li>
                               <li><a class="dropdown-item" href="https://edtracker.ca/survey_login.php">Data base</a></li>
                             </ul>
@@ -87,6 +89,7 @@
                                     Screen-19
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#screen-19-modal">Demo</a></li>
                                   <li><a class="dropdown-item" href="https://github.com/tkfellows/screen-19">Source code</a></li>
                                   <li><a class="dropdown-item" href="https://edtracker.ca/covidScreen/covidLogin.php">Data base</a></li>
                                 </ul>
@@ -103,6 +106,7 @@
                                     GasTracker
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#gastracker-modal">Demo</a></li>
                                   <li><a class="dropdown-item" href="https://github.com/tkfellows/GasTracker">Source code</a></li>
                                   <li><a class="dropdown-item" href="https://edtracker.ca/gasTracker/gasLogIn.php">Data base</a></li>
                                 </ul>
@@ -119,6 +123,7 @@
                                 FiveDot
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#fivedot-modal">Demo</a></li>
                                   <li><a class="dropdown-item" href="https://github.com/tkfellows/FiveDot">Source code</a></li>
                                   <li><a class="dropdown-item" href="https://edtracker.ca/fiveDot/fiveDotLogIn.php">Data base</a></li>
                                 </ul>
@@ -203,11 +208,71 @@
             <div class="modal-content" style="background-color: #e3f2fd;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">EDTracker App - Demo</h5>
-                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body d-flex justify-content-center">
+                <div id="EDTracker-video" class="modal-body d-flex justify-content-center">
                     <video width="220px" height="auto" controls="controls">
-                        <source src="https://cdn.jsdelivr.net/gh/tkfellows/EDTracker/Demo/edtracker-demo.mp4" type="video/mp4">
+                        <source src="../media/videos/edtracker-demo.mp4" type="video/mp4">
+                    </video> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EDSurvey -->
+    <div class="modal fade" id="edSurvey-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #a096d6;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">EDSurvey App - Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="EDSurvey-video" class="modal-body d-flex justify-content-center">
+                    <video width="220px" height="auto" controls="controls">
+                        <source src="../media/videos/edsurvey-demo.mp4" type="video/mp4">
+                    </video> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Screen-19 -->
+    <div class="modal fade" id="screen-19-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #b2f7e7;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Screen-19 App - Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="Screen-19-video" class="modal-body d-flex justify-content-center">
+                    <video width="220px" height="auto" controls="controls">
+                        <source src="../media/videos/screen19-demo.mp4" type="video/mp4">
+                    </video> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GasTracker -->
+    <div class="modal fade" id="gastracker-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #ffb2a6;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">GasTracker App - Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="GasTracker-video" class="modal-body d-flex justify-content-center">
+                    <video width="220px" height="auto" controls="controls">
+                        <source src="../media/videos/gastracker-demo.mp4" type="video/mp4">
                     </video> 
                 </div>
                 <div class="modal-footer">
@@ -217,7 +282,26 @@
         </div>
     </div>
   
-    
+    <!-- GasTracker -->
+    <div class="modal fade" id="fivedot-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #f0eea5;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">FiveDot App - Demo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="FiveDot-video" class="modal-body d-flex justify-content-center">
+                    <video width="220px" height="auto" controls="controls">
+                        <source src="../media/videos/fivedot-demo.mp4" type="video/mp4">
+                    </video> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <div id="navbar-footer"></div>
     <!-- Bootstrap 5 JS Script -->
