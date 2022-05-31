@@ -54,6 +54,7 @@
                                   EDTracker
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#edTracker-modal">Demo</a></li>
                                   <li><a class="dropdown-item" href="https://github.com/tkfellows/EDTracker">Source code</a></li>
                                   <li><a class="dropdown-item" href="https://edtracker.ca/edTracker_login.php">Data base</a></li>
                                 </ul>
@@ -191,12 +192,31 @@
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
     </section>
+
+    <!-- Demo modals for each card -->
+   
+    <!-- EDTracker -->
+    <div class="modal fade" id="edTracker-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: #e3f2fd;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">EDTracker App - Demo</h5>
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                    <video width="220px" height="auto" controls="controls">
+                        <source src="../media/videos/edtracker-demo.mp4" type="video/mp4">
+                    </video> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
     
     <!-- Footer -->
     <div id="navbar-footer"></div>
