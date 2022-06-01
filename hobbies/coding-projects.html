@@ -18,6 +18,8 @@
     <!-- Custom JS Scripts -->
     <script defer src="../js/header-footer.js"></script> 
 
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcNDzcgAAAAAAfLq6vk5y1KpZ-c6VqNkmurOWCp"></script>
+
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -200,6 +202,7 @@
     </section>
 
     <!-- Demo modals for each card -->
+   
     <!-- EDTracker -->
     <div class="modal fade" id="edTracker-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -280,7 +283,7 @@
         </div>
     </div>
   
-    <!-- FiveDot -->
+    <!-- GasTracker -->
     <div class="modal fade" id="fivedot-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content" style="background-color: #f0eea5;">
@@ -299,6 +302,18 @@
             </div>
         </div>
     </div>
+
+    <script>
+        function onClick(e) {
+          e.preventDefault();
+          grecaptcha.ready(function() {
+            grecaptcha.execute('6LcNDzcgAAAAAAfLq6vk5y1KpZ-c6VqNkmurOWCp', {action: 'submit'}).then(function(token) {
+                // Add your logic to submit to your backend server here.
+            });
+          });
+        }
+    </script>
+
 
     <!-- Footer -->
     <div id="navbar-footer"></div>
