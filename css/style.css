@@ -102,18 +102,20 @@
 
 .hover-right span {
     display: none;
-    margin-left: 60px;
-    font-size: 34px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 32px;
 }
 
 .hover-right:hover {
-    transform: translateX(-10px);
-    transition: all 0.3s ease-in;
+    transform: translateX(10px);
+    transition: all 0.2s ease-in-out;
 }
 
 .hover-right:hover span {
     display: inline-block;
-    animation-duration: 0.3s;
+    animation-duration: 0.2s;
+    transform: translateX(-150px);
     animation-name: slide-right;
 }
 
@@ -124,7 +126,7 @@
     }
     to {
         opacity: 100;
-        font-size: 34px;
+        font-size: 32px;
 
     }
 }
