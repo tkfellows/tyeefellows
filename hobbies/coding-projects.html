@@ -18,7 +18,7 @@
     <!-- Custom JS Scripts -->
     <script defer src="../js/header-footer.js"></script> 
 
-    <script src="https://www.google.com/recaptcha/api.js?render=6LcNDzcgAAAAAAfLq6vk5y1KpZ-c6VqNkmurOWCp"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 
 </head>
 <body>
@@ -303,16 +303,23 @@
         </div>
     </div>
 
-    <script>
-        function onClick(e) {
-          e.preventDefault();
-          grecaptcha.ready(function() {
-            grecaptcha.execute('6LcNDzcgAAAAAAfLq6vk5y1KpZ-c6VqNkmurOWCp', {action: 'submit'}).then(function(token) {
-                // Add your logic to submit to your backend server here.
-            });
-          });
+     <script>
+        function onSubmit(token) {
+          document.getElementById("demo-form").submit();
         }
-    </script>
+      </script>
+     <button 
+        class="g-recaptcha" 
+        data-sitekey="6LcNDzcgAAAAAAfLq6vk5y1KpZ-c6VqNkmurOWCp" 
+        data-callback='onSubmit' 
+        data-action='submit'>
+        Submit
+    </button>
+
+    <form action="/hobbies/coding-projects.html" id="demo-form" method="get">
+        <input type="submit" id="submit" value="Submit">
+    </form>
+
 
 
     <!-- Footer -->
