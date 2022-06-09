@@ -229,7 +229,8 @@
                                 <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
                                   <li><a class="dropdown-item" href="https://gateway.pinata.cloud/ipfs/QmU4uaAaLhkLKWw8fs9vpj5CKW1ULmdBRdwvuyJzKBoiko/src/">NFT demo</a></li>
                                   <li><a class="dropdown-item" href="https://loopring.mypinata.cloud/ipfs/QmXuH4mVDd8xdC5Ts6RRGMdeasqUqfoUK58Ci6abncp9dA">NFT metadata</a></li>
-                                  <li><a class="dropdown-item" href="https://explorer.loopring.io/nft/0x8728797d95881e258615d2d27304082581a6b981-0-0xba6378ac3790c9c7abd6007fcdd57cf015b5b06e-0x8e14e0582317434b8a8d2d5a78a77a032b6692f6f899205439f3b121882196f9-10">Loopring data</a></li>
+                                  <!-- <li><a class="dropdown-item" href="https://explorer.loopring.io/nft/0x8728797d95881e258615d2d27304082581a6b981-0-0xba6378ac3790c9c7abd6007fcdd57cf015b5b06e-0x8e14e0582317434b8a8d2d5a78a77a032b6692f6f899205439f3b121882196f9-10">Loopring data</a></li> -->
+                                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#wallet-modal">NFT wallet</a></li>
                                 </ul>
                               </div>
                         </div>
@@ -334,6 +335,29 @@
                         <source src="../media/videos/fivedot-demo.mp4" type="video/mp4">
                     </video> 
                 </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wallet Address -->
+    <div class="modal fade" id="wallet-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: lightgrey;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">NFT Wallet</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div id="FiveDot-video" class="modal-body d-flex justify-content-center">
+                    <img src="../media/gswallet_qrcode.png" alt="...">
+                </div>
+                <div id="FiveDot-video" class="modal-body d-flex justify-content-center">
+                    <p>Address: </p>
+                    <a href="https://etherscan.io/address/0x8728797D95881e258615d2d27304082581A6b981#tokentxns">0x8728797d95881e258615d2d27304082581a6b981</a>
+                </div>
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
