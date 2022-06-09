@@ -17,6 +17,8 @@
     </style>
     <!-- Custom JS Scripts -->
     <script defer src="../js/header-footer.js"></script> 
+    <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+    <script src="../js/get-nft.js"></script>
 
 </head>
 <body>
@@ -33,7 +35,6 @@
     <!-- Coding Card Section -->
     <section id="coding-section" class="coding-cards bg-light m-5 rounded">
         <div class="container-fluid">
-
             <div class="row">
                 <div class="col pb-3">
                     <h1 class="fw-lighter fw-bold">
@@ -152,7 +153,7 @@
                     <div class="row justify-content-center  gy-5 text-center">
                         <div class="col d-flex justify-content-center">
                             <div class="card border-3" style="width: 12rem; background-color: lightgrey;">
-                                <i class="bi bi-globe" style='font-size:120px; color: black; transform: scale(1);'></i>
+                                <i class="bi bi-file-code" style='font-size:120px; color: black; transform: scale(1);'></i>
                                 <div class="card-body">
                                     <div class="dropdown">
                                         <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -166,6 +167,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col col-md-6 col-lg-6">
                     <div class="row">
                         <div class="col pb-3">
@@ -195,12 +197,50 @@
                         </div>
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Web3 Section -->
+    <section id="coding-section" class="coding-cards bg-light m-5 rounded">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col pb-3">
+                    <h1 class="fw-lighter fw-bold">
+                        Web3
+                    </h1>
+                    <span class="fs-5 fst-italic">
+                        Blockchain applications
+                    </span> 
+                </div>
+            </div>
+            <div class="row justify-content-center gy-5 text-center">
+                <div class="col d-flex justify-content-center">
+                        <div class="card border-3" style="width: 12rem; background-color: lightgrey;">
+                            <img src="../media/box-breathing-nft-thumbnail.png" class="card-img-top p-3" alt="...">
+                            <!-- <i class="bi bi-globe" style='font-size:120px; color: black; transform: scale(1);'></i> --> 
+                        <div class="card-body">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Breath NFT
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                  <li><a class="dropdown-item" href="https://gateway.pinata.cloud/ipfs/QmU4uaAaLhkLKWw8fs9vpj5CKW1ULmdBRdwvuyJzKBoiko/src/">NFT demo</a></li>
+                                  <li><a class="dropdown-item" href="https://loopring.mypinata.cloud/ipfs/QmXuH4mVDd8xdC5Ts6RRGMdeasqUqfoUK58Ci6abncp9dA">NFT metadata</a></li>
+                                  <li><a class="dropdown-item" href="https://explorer.loopring.io/nft/0x8728797d95881e258615d2d27304082581a6b981-0-0xba6378ac3790c9c7abd6007fcdd57cf015b5b06e-0x8e14e0582317434b8a8d2d5a78a77a032b6692f6f899205439f3b121882196f9-10">Loopring data</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
     <!-- Demo modals for each card -->
-   
     <!-- EDTracker -->
     <div class="modal fade" id="edTracker-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -281,7 +321,7 @@
         </div>
     </div>
   
-    <!-- GasTracker -->
+    <!-- FiveDot -->
     <div class="modal fade" id="fivedot-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content" style="background-color: #f0eea5;">
