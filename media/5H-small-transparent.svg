@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- 
+   Title: SVG file for the 5H's of ACLS NFT
+   Author: Tyee Fellows MD
+   Published date: June 15, 2022 
+-->
+
+<svg
+   width="247.5"
+   height="320"
+   viewBox="0 0 247.5 320"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="5H-small-transparent-320.svg"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview165"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.7870816"
+     inkscape:cx="85.054876"
+     inkscape:cy="154.16196"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter53076-7-4"
+       x="-0.0067592128"
+       y="-0.053164151"
+       width="1.0135184"
+       height="1.1063283">
+      <feGaussianBlur
+         stdDeviation="0.32228247"
+         id="feGaussianBlur53078-9-8" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter1874"
+       x="-0.020643966"
+       y="-0.01804684"
+       width="1.0412879"
+       height="1.0360937">
+      <feGaussianBlur
+         stdDeviation="0.69532388"
+         id="feGaussianBlur1876" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <g
+       id="g53483"
+       transform="matrix(1.9477725,0,0,1.9504671,-85.674206,-90.117996)">
+      <g
+         id="g1872"
+         transform="matrix(0.94070763,0,0,0.94070787,13.681211,28.408108)"
+         style="opacity:0.3;filter:url(#filter1874)">
+        <path
+           d="m 143.18427,66.736509 q 0,-2.89181 2.03685,-4.928649 2.06199,-2.03684 4.92864,-2.03684 2.91697,0 4.9538,2.03684 2.03684,2.036839 2.03684,4.928649 0,2.891811 -2.06198,4.953797 -2.03685,2.03684 -4.92866,2.03684 -2.86665,0 -4.92864,-2.03684 -2.03685,-2.036841 -2.03685,-4.953797 z m 2.74094,0 q 0,1.760234 1.23218,3.017541 1.25729,1.232164 3.01753,1.232164 1.73508,0 2.96726,-1.232164 1.25727,-1.257307 1.25727,-3.017541 0,-1.760232 -1.25727,-2.992394 -1.23218,-1.257309 -2.96726,-1.257309 -1.76024,0 -3.01753,1.257309 -1.23218,1.232162 -1.23218,2.992394 z"
+           id="path1850"
+           style="font-size:44.0331px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.46194" />
+        <path
+           d="m 123.00617,174.70189 2.52027,-1.44391 q 1.68018,-0.9976 2.36275,-1.68018 1.07637,-1.10261 1.07637,-2.49401 0,-1.65392 -0.99761,-2.62528 -0.97136,-0.9451 -2.59903,-0.9451 -2.4415,0 -3.36036,1.8377 -0.49879,0.97134 -0.55131,2.73029 H 119.042 q 0.0525,-2.46777 0.91885,-4.01668 1.52266,-2.73029 5.40807,-2.73029 3.22909,0 4.7255,1.73269 1.49641,1.75893 1.49641,3.91166 0,2.25775 -1.60142,3.85916 -0.91885,0.91885 -3.2816,2.25774 l -1.81144,0.99761 q -1.28638,0.70882 -2.02146,1.33889 -1.31264,1.15512 -1.65393,2.54652 h 10.26484 v 2.23148 H 118.5957 q 0.13127,-2.44151 0.99761,-4.25295 0.86634,-1.78518 3.41286,-3.25534 z"
+           id="path1852"
+           style="font-size:47.7321px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.52407" />
+        <path
+           d="m 130.99771,144.72987 v -18.81784 h 2.49022 v 9.33191 l 9.34474,-9.33191 h 3.37591 l -7.89425,7.62469 8.24083,11.19315 h -3.28606 l -6.70049,-9.52444 -3.08068,3.00366 v 6.52078 z"
+           id="path1854"
+           style="font-size:26.2885px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.55247;stroke-linecap:round;stroke-linejoin:round"
+           transform="scale(1.0006915,0.999309)" />
+        <path
+           d="M 89.407148,169.09561 52.344872,73.438399 H 66.047474 L 90.90791,139.64969 c 2.001015,5.56804 3.675777,10.78808 5.024287,15.66011 1.479011,-5.22004 3.197276,-10.44008 5.154793,-15.66011 l 25.83919,-66.211291 h 12.91959 L 102.392,169.09561 Z"
+           id="path1856"
+           style="font-size:133.633px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.55247;stroke-linecap:round;stroke-linejoin:round"
+           transform="scale(1.0006914,0.99930908)" />
+        <path
+           d="m 44.670438,144.72987 v -18.81784 h 2.490219 v 7.72738 h 9.78117 v -7.72738 h 2.490219 v 18.81784 h -2.490219 v -8.8698 h -9.78117 v 8.8698 z"
+           id="path1858"
+           style="font-size:26.2885px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.55247;stroke-linecap:round;stroke-linejoin:round"
+           transform="scale(1.0006915,0.999309)" />
+        <path
+           id="path1860"
+           style="font-size:44.2966px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.38645"
+           d="m 94.753723,102.10457 c 0,0.82362 -0.01988,0.79512 -0.01988,0.79512 l -9.509417,0.0272 v 2.36718 h 9.529297 v 9.59961 h 2.416015 v -9.59961 h 9.529292 v -2.36723 h -9.529292 v -9.529298 h -2.416015 z" />
+        <path
+           id="path1862"
+           style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:1.8988;stroke-linejoin:round"
+           transform="matrix(1.0630296,0,0,1.0630293,-10.0442,-27.476336)"
+           d="M 42.272408,65.592339 H 164.30475 V 205.18641 H 42.272408 Z" />
+      </g>
+      <g
+         id="g562"
+         transform="matrix(0.94070763,0,0,0.94070787,12.218409,26.947326)">
+        <path
+           d="m 143.18427,66.736509 q 0,-2.89181 2.03685,-4.928649 2.06199,-2.03684 4.92864,-2.03684 2.91697,0 4.9538,2.03684 2.03684,2.036839 2.03684,4.928649 0,2.891811 -2.06198,4.953797 -2.03685,2.03684 -4.92866,2.03684 -2.86665,0 -4.92864,-2.03684 -2.03685,-2.036841 -2.03685,-4.953797 z m 2.74094,0 q 0,1.760234 1.23218,3.017541 1.25729,1.232164 3.01753,1.232164 1.73508,0 2.96726,-1.232164 1.25727,-1.257307 1.25727,-3.017541 0,-1.760232 -1.25727,-2.992394 -1.23218,-1.257309 -2.96726,-1.257309 -1.76024,0 -3.01753,1.257309 -1.23218,1.232162 -1.23218,2.992394 z"
+           id="path1061"
+           style="font-size:44.0331px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.46194" />
+        <path
+           d="m 123.00617,174.70189 2.52027,-1.44391 q 1.68018,-0.9976 2.36275,-1.68018 1.07637,-1.10261 1.07637,-2.49401 0,-1.65392 -0.99761,-2.62528 -0.97136,-0.9451 -2.59903,-0.9451 -2.4415,0 -3.36036,1.8377 -0.49879,0.97134 -0.55131,2.73029 H 119.042 q 0.0525,-2.46777 0.91885,-4.01668 1.52266,-2.73029 5.40807,-2.73029 3.22909,0 4.7255,1.73269 1.49641,1.75893 1.49641,3.91166 0,2.25775 -1.60142,3.85916 -0.91885,0.91885 -3.2816,2.25774 l -1.81144,0.99761 q -1.28638,0.70882 -2.02146,1.33889 -1.31264,1.15512 -1.65393,2.54652 h 10.26484 v 2.23148 H 118.5957 q 0.13127,-2.44151 0.99761,-4.25295 0.86634,-1.78518 3.41286,-3.25534 z"
+           id="path1064"
+           style="font-size:47.7321px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.52407" />
+        <path
+           d="m 130.99771,144.72987 v -18.81784 h 2.49022 v 9.33191 l 9.34474,-9.33191 h 3.37591 l -7.89425,7.62469 8.24083,11.19315 h -3.28606 l -6.70049,-9.52444 -3.08068,3.00366 v 6.52078 z"
+           id="path1502"
+           style="font-size:26.2885px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.55247;stroke-linecap:round;stroke-linejoin:round"
+           transform="scale(1.0006915,0.999309)" />
+        <path
+           d="M 89.407148,169.09561 52.344872,73.438399 H 66.047474 L 90.90791,139.64969 c 2.001015,5.56804 3.675777,10.78808 5.024287,15.66011 1.479011,-5.22004 3.197276,-10.44008 5.154793,-15.66011 l 25.83919,-66.211291 h 12.91959 L 102.392,169.09561 Z"
+           id="path1505"
+           style="font-size:133.633px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.55247;stroke-linecap:round;stroke-linejoin:round"
+           transform="scale(1.0006914,0.99930908)" />
+        <path
+           d="m 44.670438,144.72987 v -18.81784 h 2.490219 v 7.72738 h 9.78117 v -7.72738 h 2.490219 v 18.81784 h -2.490219 v -8.8698 h -9.78117 v 8.8698 z"
+           id="path1508"
+           style="font-size:26.2885px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.55247;stroke-linecap:round;stroke-linejoin:round"
+           transform="scale(1.0006915,0.999309)" />
+        <path
+           id="path1052"
+           style="font-size:44.2966px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';opacity:1;stroke-width:1.38645"
+           d="m 94.753723,102.10457 c 0,0.82362 -0.01988,0.79512 -0.01988,0.79512 l -9.509417,0.0272 v 2.36718 h 9.529297 v 9.59961 h 2.416015 v -9.59961 h 9.529292 v -2.36723 h -9.529292 v -9.529298 h -2.416015 z" />
+        <path
+           id="rect56042"
+           style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:1.8988;stroke-linejoin:round"
+           transform="matrix(1.0630296,0,0,1.0630293,-10.0442,-27.476336)"
+           d="M 42.272408,65.592339 H 164.30475 V 205.18641 H 42.272408 Z" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.3;fill:#000000;fill-opacity:0.75;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="51.88578"
+           y="186.99706"
+           id="text53487-2"><tspan
+             id="tspan55314-7"
+             x="49.952614"
+             y="187.60777"
+             style="font-size:3px;opacity:0.5">Tyee Fellows MD</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.5px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           x="103"
+           y="100"
+           id="m-5H-info"
+           transform="matrix(1.0630296,0,0,1.0630293,-12.98853,-28.645798)"><tspan
+             id="tspan537"
+             x="103"
+             y="100" />Test</text>
+      </g>
+    </g>
+    <g
+       id="g1620"
+       transform="matrix(1.9880386,0,0,1.9907888,-88.132793,-83.682688)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6544px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;opacity:0.4;fill:#a02c2c;fill-opacity:1;stroke:#00000f;stroke-width:0.696415;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter53076-7-4)"
+         x="106.21781"
+         y="57.817081"
+         id="text13919-2"><tspan
+           id="tspan589"
+           x="106.21781"
+           y="57.817081"
+           style="fill:#a02c2c;fill-opacity:1;stroke:#00000f;stroke-opacity:1">5H's of ACLS</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.6544px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;display:inline;fill:#a02c2c;fill-opacity:1;stroke:#000000;stroke-width:0.696415;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         x="105.47471"
+         y="56.984356"
+         id="text53074-3"><tspan
+           id="tspan591"
+           x="105.47471"
+           y="56.984356">5H's of ACLS</tspan></text>
+    </g>
+  </g>
+</svg>

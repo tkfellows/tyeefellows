@@ -1,0 +1,7 @@
+<svg width="320" height="320" viewBox="0 0 320 320" id="breath-nft" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0 L320 0 L320 320 L0 320 L0 0" id="breath-box" fill="none" stroke="lightgrey" stroke-width="1rem"></path>
+    <rect id="breath-icon" width="3rem" height="3rem" x="0.5rem" y="0.5rem" fill="lightgrey" stroke-width="0"></rect>
+    <text id="breath-text" width="4rem" height="4rem" x="160" y="160" dominant-baseline="middle" text-anchor="middle" style="font-size:2rem; font-family: Arial; fill:lightgrey"
+    >breath in
+    </text>
+</svg>

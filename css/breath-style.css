@@ -1,0 +1,18 @@
+/* body {
+  background-color: white;
+} */
+
+#breath-icon {
+  position: absolute;
+  animation-name: breath-icon-animation;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes breath-icon-animation {
+  0%   {fill:lightgrey; x:0.5rem; y:0.5rem;}
+  25%  {fill:darkblue; x:16.5rem; y:0.5rem;}
+  50%  {fill:blue; x:16.5rem; y:16.5rem;}
+  75%  {fill: rgb(72, 150, 239); x:0.5rem; y:16.5rem;}
+  100% {fill:lightgrey; x:0.5rem; y:0.5rem;}
+}
