@@ -17,9 +17,9 @@
     </style>
     <!-- Custom JS Scripts -->
     <script defer src="../js/header-footer.js"></script> 
-    <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
-    <script src="../js/get-nft.js"></script>
-
+    <script src="../js/svg-inject.js"></script>
+    <script src="../js/nft-properties.js"></script>
+    <link rel="stylesheet" href="../css/breath-style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -135,6 +135,98 @@
         </div>
     </section>
 
+    <!-- Web3 Section -->
+    <section id="coding-section" class="coding-cards bg-light m-5 rounded">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col pb-3">
+                    <h1 class="fw-lighter fw-bold">
+                        Web3
+                    </h1>
+                    <span class="fs-5 fst-italic">
+                        Blockchain applications
+                    </span> 
+                    <p class="pt-3">
+                        <a class="pe-1" href="" data-bs-toggle="modal" data-bs-target="#wallet-modal"><i class="bi bi-wallet2"></i></a>
+                        Etherium wallet
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-around g-4">
+
+                <div class="col-sm-6 col-lg-3 d-flex align-items-center justify-content-center">
+                    <div class="card border-3" style="width: 24rem; background-color:  white;">
+                        <div class="interactive-nft text-center pt-4">
+                            <img id="5T-SVG" width="70%" height="100%" src="/media/5T-small-transparent.svg" class="injectable">
+                        </div>
+                        <div class="card-body">
+                            <div class="dropdown text-center">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    5T's of ACLS
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmWyJ7vhGEv4pZxNbxGxB9XNUawZWVfuQ8uwQNbvzs9E6H">NFT metadata</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmcYzSTvr999Ee1pZ8PVURMNZWApdoxQPT3FonXaLaeeTa/src/">NFT link</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmcYzSTvr999Ee1pZ8PVURMNZWApdoxQPT3FonXaLaeeTa/5T-full-transparent.svg">Static SVG - Full</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmcYzSTvr999Ee1pZ8PVURMNZWApdoxQPT3FonXaLaeeTa/5T-small-transparent.svg">Static SVG - Small</a></li>
+                                </ul>
+                            </div>
+                            <p class="pt-4 d-none d-sm-block" style="text-align: justify;">This is a visual mnemonic NFT to facilitate the recall of the 5T's in the ACLS mnemonic <strong>the 5 H’s and 5 T’s</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3 d-flex align-items-center justify-content-center">
+                    <div class="card border-3" style="width: 24rem; background-color: white;">
+                        <div class="interactive-nft text-center pt-4">
+                            <img id="5H-SVG" width="70%" height="100%" src="/media/5H-small-transparent.svg" class="injectable">
+                            <!-- <img id="5H-NFT" width="100%" title="Interactive NFT" src="/media/5H-small-transparent.svg"></img> -->
+                        </div>
+                        <div class="card-body">
+                            <div class="dropdown text-center">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    5H's of ACLS
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmbNgLERKnnjYNY1eecKRY1EcbB8bu8DPpNb8QbFN4fy1G">NFT metadata</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmdkbZVT18TWDuxbNMvG9g6ijrvWq8rhRtAxkAtk6937gk/src/">NFT link</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmdkbZVT18TWDuxbNMvG9g6ijrvWq8rhRtAxkAtk6937gk/5H-full-transparent.svg">Static SVG - Full</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmdkbZVT18TWDuxbNMvG9g6ijrvWq8rhRtAxkAtk6937gk/5H-small-transparent.svg">Static SVG - Small</a></li>
+                                </ul>
+                            </div>
+                            <p class="pt-4 d-none d-sm-block" style="text-align: justify;">This is a visual mnemonic NFT to facilitate the recall of the 5H's in the ACLS mnemonic <strong>the 5 H’s and 5 T’s</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card border-3" style="width: 24rem; background-color: white;">
+                        <div class="interactive-nft text-center pt-4">
+                            <img id="breath-SVG" width="80%" height="100%" src="/media/breath.svg" class="injectable">
+                        </div>
+                        <div class="card-body">
+                            <div class="dropdown text-center mt-4">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Breath
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmXuH4mVDd8xdC5Ts6RRGMdeasqUqfoUK58Ci6abncp9dA">NFT metadata</a></li>
+                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmU4uaAaLhkLKWw8fs9vpj5CKW1ULmdBRdwvuyJzKBoiko/src/">NFT link</a></li>
+                                    <li><a class="dropdown-item" href="/media/breath.svg">Static SVG</a></li>
+                                </ul>
+                            </div>
+                            <p class="pt-4 d-none d-sm-block">This is a box breathing NFT to help someone experiencing a panic attack episode.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <span>                        
+                    <i class="bi bi-info-circle pe-1"></i>
+                    If you would like one of these NFTs, please send me your Layer 2 wallet address
+                </span>               
+            <div>
+        </div>
+    </section>
+
     <!-- Coding Card Section -->
     <section id="coding-section" class="coding-cards bg-light m-5 rounded">
         <div class="container-fluid">
@@ -199,97 +291,6 @@
                 </div>
 
             </div>
-        </div>
-    </section>
-
-
-    <!-- Web3 Section -->
-    <section id="coding-section" class="coding-cards bg-light m-5 rounded">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col pb-3">
-                    <h1 class="fw-lighter fw-bold">
-                        Web3
-                    </h1>
-                    <span class="fs-5 fst-italic">
-                        Blockchain applications
-                    </span> 
-                    <p>
-                        <a class="pe-1" href="" data-bs-toggle="modal" data-bs-target="#wallet-modal"><i class="bi bi-wallet2"></i></a>
-                        Etherium wallet
-                    </p>
-                </div>
-            </div>
-            <div class="row justify-content-center gy-5 ">
-                <div class="col-6 d-flex justify-content-center">
-                    <div class="card border-3 pt-4" style="width: 26rem; background-color: lightgrey;">
-                        <div class="interactive-nft text-center">
-                            <iframe width="340" height="340" title="Interactive NFT" src="https://www.gstop-content.com/ipfs/QmcYzSTvr999Ee1pZ8PVURMNZWApdoxQPT3FonXaLaeeTa/src/"></iframe>
-                        </div>
-                        <div class="card-body">
-                            <div class="dropdown text-center">
-                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    5T's of ACLS
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmWyJ7vhGEv4pZxNbxGxB9XNUawZWVfuQ8uwQNbvzs9E6H">NFT metadata</a></li>
-                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmcYzSTvr999Ee1pZ8PVURMNZWApdoxQPT3FonXaLaeeTa/5T-full-transparent.svg">Static SVG - Full</a></li>
-                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmcYzSTvr999Ee1pZ8PVURMNZWApdoxQPT3FonXaLaeeTa/5T-small-transparent.svg">Static SVG - Small</a></li>
-                                </ul>
-                            </div>
-                            <p class="pt-2 text-justify">This is a visual mnemonic NFT to facilitate the recall of the 5T's in the mnemonic - the 5 H’s and 5 T’s - that describes the 10 most common reversible causes of non-ventricular fibrillation/tachycardia arrest</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 d-flex justify-content-center">
-                    <div class="card border-3 pt-4" style="width: 26rem; background-color: lightgrey;">
-                        <div class="interactive-nft text-center">
-                            <iframe width="340" height="340" title="Interactive NFT" src="https://www.gstop-content.com/ipfs/QmdkbZVT18TWDuxbNMvG9g6ijrvWq8rhRtAxkAtk6937gk/src/"></iframe>
-                        </div>
-                        <div class="card-body">
-                            <div class="dropdown text-center">
-                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    5H's of ACLS
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmbNgLERKnnjYNY1eecKRY1EcbB8bu8DPpNb8QbFN4fy1G">NFT metadata</a></li>
-                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmdkbZVT18TWDuxbNMvG9g6ijrvWq8rhRtAxkAtk6937gk/5H-full-transparent.svg">Static SVG - Full</a></li>
-                                    <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmdkbZVT18TWDuxbNMvG9g6ijrvWq8rhRtAxkAtk6937gk/5H-small-transparent.svg">Static SVG - Small</a></li>
-                                </ul>
-                            </div>
-                            <p class="pt-2 text-justify">This is a visual mnemonic NFT to facilitate the recall of the 5H's in the mnemonic - the 5 H’s and 5 T’s - that describes the 10 most common reversible causes of non-ventricular fibrillation/tachycardia arrest</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 d-flex justify-content-center">
-                    <div class="card border-3 pt-4" style="width: 26rem; background-color: lightgrey;">
-                        <div class="interactive-nft text-center"">
-                            <iframe width="320" height="340" title="Interactive NFT" src="https://www.gstop-content.com/ipfs/QmU4uaAaLhkLKWw8fs9vpj5CKW1ULmdBRdwvuyJzKBoiko/src/"></iframe>
-                        </div>
-                            <!-- <img src="../media/box-breathing-nft-thumbnail.png" class="card-img-top p-3" alt="..."> -->
-                            <!-- <i class="bi bi-globe" style='font-size:120px; color: black; transform: scale(1);'></i> --> 
-                        <div class="card-body">
-                            <div class="dropdown text-center">
-                                <button class="btn btn-secondary btn-lg dropdown-toggle-split" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Breath
-                                </button>
-                                <ul class="dropdown-menu dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                  <li><a class="dropdown-item" href="https://www.gstop-content.com/ipfs/QmXuH4mVDd8xdC5Ts6RRGMdeasqUqfoUK58Ci6abncp9dA">NFT metadata</a></li>
-                                </ul>
-                            </div>
-                            <p class="pt-2 text-justify">This is a box breathing NFT to help someone who is experiencing a panic attack episode.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <p>                        
-                    <i class="bi bi-info-circle pe-1"></i>
-                    If you would like these NFTs, please send me Layer 2 wallet address
-                </p>
-
-            <div>
         </div>
     </section>
 
