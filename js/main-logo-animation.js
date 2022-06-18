@@ -14,11 +14,11 @@ logoAnimation = gsap.to("#beat",
             alignOrigin: [0.5, 0.5],
             autoRotate: true,
             start: -0.035,
-            end:0.995,
+            end:0.97,
         }
     }
     );
-$("svg").hover(function() {
+$("svg#main-logo").hover(function() {
         logoAnimation.play();
         logoAnimation.eventCallback("onRepeat", function(){});
     }, function() {
