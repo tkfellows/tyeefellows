@@ -24,7 +24,7 @@ heartAnimation = gsap.to("#heart",
         paused: true,
         ease: "power4",
         repeat: -1,
-        scale: 1.03
+        scale: 1.02
     });
 $("svg#main-logo").hover(function() {
         logoAnimation.play();
