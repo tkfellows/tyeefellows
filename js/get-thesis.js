@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const divDownloads = document.createElement('div');
         divDownloads.classList.add('col-2','col-sm-3','col-md-1','col-lg-1');
         divDownloads.style.cssText += 'text-align: center;';
-        divDownloads.innerHTML = `<a class="navbar-brand" href="https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0166301" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Total downloads"><i class="bi bi-download ps-3" style='font-size:30px; color: black;'></i></a><br><p1 style='font-size:18px;'>${res[1].data.interactions.total}</p1>`;
+        divDownloads.innerHTML = `<a class="navbar-brand" href="https://open.library.ubc.ca/soa/cIRcle/collections/ubctheses/24/items/1.0166301" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Total downloads"><i class="bi bi-download ps-3" style='font-size:30px; color: black;'></i></a><span style='display: block; font-size:18px;'>${res[1].data.interactions.total}</span>`;
 
         const divPdf = document.createElement('div');
         divPdf.classList.add('col-3','col-sm-3','col-md-1','col-lg-1');
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         pJournalDate.classList.add('lead','fs-6','text-start');
         var publishedDate = new Date(res[0].metadata.DateAvailable[0].value+'T00:00:00');
         const longEnUSFormatter = new Intl.DateTimeFormat('en-US', {year:  'numeric', month: 'long', day:   'numeric'});
-        pJournalDate.innerHTML = '<i><b>' + res[0].metadata.Publisher[0].value + '</b></i>. ' + longEnUSFormatter.format(publishedDate);
+        pJournalDate.innerHTML = '<i><b>' + res[0].metadata.Publisher[0].value + '</b></i>. ' + longEnUSFormatter.format(publishedDate) + '. doi: 10.14288/1.0166301';
 
         const pubSection = document.getElementById('publication-section');
 
