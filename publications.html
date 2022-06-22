@@ -14,12 +14,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/MotionPathPlugin.min.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- Loading badge scripts -->
+        <script defer src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+        <script defer src="https://badge.dimensions.ai/badge.js"></script>
     <!-- Custom JS Scripts -->
-    <script defer src="js/header-footer.js"></script> 
-    <script defer src="/js/main-logo-animation.js"></script>   
-    <script defer type='text/javascript' src="js/get-publications.js"></script> 
+    <script defer type='text/javascript' src="js/header-footer.js"></script> 
+    <script defer type='text/javascript' src="js/main-logo-animation.js"></script>   
     <script defer type='text/javascript' src="js/get-thesis.js"></script>
-    <script defer src="js/google-scholar.js"></script>
+    <!-- <script defer type='text/javascript' src="js/google-scholar.js"></script> -->
 
 </head>
 <body>
@@ -27,6 +29,7 @@
     <div id="navbar-header"></div>
 
     <!-- Title  -->
+    <!-- <div id="home-page">Hello</div> -->
     <section class="home-page">
         <div class="container-lg">
             <h1 class="text-center display-1 fw-lighter py-5">Publications</h1>
@@ -43,15 +46,15 @@
                     <tr>
                         <td><a href="https://scholar.google.ca/citations?hl=en&user=sbkVZRsAAAAJ">Link</a></td>
                         <td id="gs-citation">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">75
                             </div>
                         </td>
                         <td id="gs-h-index">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">4
                             </div>
                         </td>
                         <td id="gs-i10-index">
-                            <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center">2
                             </div>
                         </td>
                     </tr>
@@ -60,32 +63,174 @@
         </div>
     </section>
 
-    <section class="publications mx-5">
-        <div id="publication-section" class="container-fluid"></div>
-        <div class="container-fluid">
-            <div class="card border-3 my-4">
-                <div class="container-fluid px-4 py-2">
-                    <div class="row d-flex justify-content-middle align-items-center">
-                        <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="text-align: center;">
-                            <a class="navbar-brand" href="https://www.royalcollege.ca/rcsite/documents/health-policy/indigenous-health-primer-e.pdf" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
-                                <i class="bi bi-file-pdf pe-3" style="font-size:60px; color: black;"></i>
-                            </a>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-8 col-lg-9">
-                            <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">Indigenous Health Primer</p1><br>
-                            <p1 class="fs-6 text-start">The Indigenous Health Writing Group of the Royal College</p1><br>
-                            <p1 class="lead fs-6 text-start"><i><b>Royal College of Physicians and Surgeons of Canada</b></i>. June 2019</p1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+   <!-- Publication section -->
+   <section class="publications mx-5">
+    <div id="publication-section" class="container-fluid">
 
+     <!-- Fellows et al.-->
+       <div class="card border-3 my-4">
+          <div class="container-fluid px-4 py-2">
+             <div class="row d-flex justify-content-between align-items-center">
+
+              <div id="alt-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                 <div data-doi="10.36834/cmej.69322" style="@media only screen and (max-device-width: 400px) { { max-width: 10; } }" id="pubData" data-badge-popover="right" data-badge-type="donut" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                </div>
+
+                <div id="dim-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                 <div data-doi="10.36834/cmej.69322" class="__dimensions_badge_embed__" data-style="small_circle"></div>
+                </div>
+
+                <div id="pdf-badge" class="col-3 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                 <a class="navbar-brand" href="http://dx.doi.org/10.36834/cmej.69322" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
+                   <i class="bi bi-file-pdf" style="font-size:60px; color: black;"></i>
+                   </a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                   <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">"We regret to inform you that you did not match": Reflections on how to improve the match experience</p1>
+                   <br>
+                   <p1 class="fs-6 text-start"><b>Tyee Kenneth Fellows</b>, Sabina Freiman, Vladimir Ljubojevic, Sujen Saravanabavan</p1>
+                   <br>
+                   <p1 class="lead fs-6 text-start"><i><b>Canadian medical education journal</b></i>. April 13, 2020. doi: 10.36834/cmej.69322</p1>
+                </div>
+                
+             </div>
+          </div>
+       </div>
+
+       <!-- Goller et al. -->
+       <div class="card border-3 my-4">
+          <div class="container-fluid px-4 py-2">
+             <div class="row d-flex justify-content-between align-items-center">
+
+                <div id="alt-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                    <div data-doi="10.1086/705124" style="@media only screen and (max-device-width: 400px) { { max-width: 10; } }" id="pubData" data-badge-popover="right" data-badge-type="donut" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                </div>
+
+                <div id="dim-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                    <div data-doi="10.1086/705124" class="__dimensions_badge_embed__" data-style="small_circle"></div>
+                </div>
+
+                <div id="pdf-badge" class="col-3 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                   <a class="navbar-brand" href="http://dx.doi.org/10.1086/705124" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
+                   <i class="bi bi-file-pdf" style="font-size:60px; color: black;"></i>
+                   </a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                   <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">Spatial and Temporal Resolution of the Visual System of the Anna’s Hummingbird (Calypte anna) Relative to Other Birds</p1>
+                   <br>
+                   <p1 class="fs-6 text-start">Benjamin Goller, <b>Tyee K. Fellows</b>, Roslyn Dakin, Luke Tyrrell, Esteban Fernández-Juricic, Douglas L. Altshuler</p1>
+                   <br>
+                   <p1 class="lead fs-6 text-start"><i><b>Physiological &amp; Biochemical Zoology</b></i>. September 1, 2019. doi: 10.1086/705124</p1>
+                </div>
+
+             </div>
+          </div>
+       </div>
+
+       <!-- Kilian et al. -->
+       <div class="card border-3 my-4">
+           <div class="container-fluid px-4 py-2">
+              <div class="row d-flex justify-content-between align-items-center">
+
+              <div id="alt-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                 <div data-doi="10.9778/cmajo.20180204" style="@media only screen and (max-device-width: 400px) { { max-width: 10; } }" id="pubData" data-badge-popover="right" data-badge-type="donut" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                 </div>
+
+                 <div id="dim-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                 <div data-doi="10.9778/cmajo.20180204" class="__dimensions_badge_embed__" data-style="small_circle"></div>
+                 </div>
+
+                 <div id="pdf-badge" class="col-3 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                 <a class="navbar-brand" href="http://dx.doi.org/10.9778/cmajo.20180204" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
+                    <i class="bi bi-file-pdf" style="font-size:60px; color: black;"></i>
+                    </a>
+                 </div>
+
+                 <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                    <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">Exploring the approaches of non-Indigenous researchers to Indigenous research: a qualitative study</p1>
+                    <br>
+                    <p1 class="fs-6 text-start">Alexandra Kilian, <b>Tyee Kenneth Fellows</b>, Ryan Giroux, Jason Pennington, Ayelet Kuper, Cynthia R. Whitehead, Lisa Richardson</p1>
+                    <br>
+                    <p1 class="lead fs-6 text-start"><i><b>CMAJ Open</b></i>. August 25, 2019. doi: 10.9778/cmajo.20180204</p1>
+                 </div>
+
+              </div>
+           </div>
+        </div>
+
+        <!-- RCPS Primer Paper -->
+        <div class="card border-3 my-4">
+           <div class="container-fluid px-4 py-2">
+               <div class="row d-flex justify-content-middle align-items-center">
+                   <div class="col-12 col-sm-12 col-md-4 col-lg-3" style="text-align: center;">
+                       <a class="navbar-brand" href="https://www.royalcollege.ca/rcsite/documents/health-policy/indigenous-health-primer-e.pdf" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
+                           <i class="bi bi-file-pdf pe-3" style="font-size:60px; color: black;"></i>
+                       </a>
+                   </div>
+                   <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                       <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">Indigenous Health Primer</p1><br>
+                       <p1 class="fs-6 text-start">The Indigenous Health Writing Group of the Royal College</p1><br>
+                       <p1 class="lead fs-6 text-start"><i><b>Royal College of Physicians and Surgeons of Canada</b></i>. June 2019</p1>
+                   </div>
+               </div>
+           </div>
+        </div>
+
+        <!-- Dakin et al. -->
+       <div class="card border-3 my-4">
+          <div class="container-fluid px-4 py-2">
+             <div class="row d-flex justify-content-between align-items-center">
+
+                 <div id="alt-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                    <div data-doi="10.1073/pnas.1603221113" style="@media only screen and (max-device-width: 400px) { { max-width: 10; } }" id="pubData" data-badge-popover="right" data-badge-type="donut" data-hide-no-mentions="true" class="altmetric-embed"></div>
+                 </div>
+
+                 <div id="dim-badge" class="col-2 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                    <div data-doi="10.1073/pnas.1603221113" class="__dimensions_badge_embed__" data-style="small_circle"></div>
+                </div>
+
+                <div id="pdf-badge" class="col-3 col-sm-3 col-md-1 col-lg-1 d-flex justify-content-center">
+                   <a class="navbar-brand" href="http://dx.doi.org/10.1073/pnas.1603221113" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Download publication">
+                   <i class="bi bi-file-pdf" style="font-size:60px; color: black;"></i>
+                   </a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                   <p1 class="fs-5 text-start" style="text-align: justify; font-size: 0.5em">Visual guidance of forward flight in hummingbirds reveals control based on image features instead of pattern velocity</p1>
+                   <br>
+                   <p1 class="fs-6 text-start">Roslyn Dakin, <b>Tyee K. Fellows</b>, Douglas L. Altshuler</p1>
+                   <br>
+                   <p1 class="lead fs-6 text-start"><i><b>Proceedings of the National Academy of Sciences of the United States of America</b></i>. July 18, 2016. doi: 10.1073/pnas.1603221113</p1>
+                </div>
+
+             </div>
+          </div>
+       </div>
+
+ </section>
     <!-- Footer -->
     <div id="navbar-footer"></div>
     <!-- Bootstrap 5 JS Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+
+        fetch("https://scholar.google.com/citations?user=sbkVZRsAAAAJ&hl=en", {
+            credentials: "include",
+            method: "GET",
+            headers: {"Access-Control-Allow-Origin": "*"}
+        })
+        .then(res => {console.log(res)})
+        .catch(err => console.log(err));
+
+        let citations = document.getElementById("gs-citation");
+        let test = document.createElement("div");
+        test.innerHTML = '';
+        citations.appendChild(test);
+    </script>
+
 </body>
 </html>
 
