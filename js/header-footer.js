@@ -112,9 +112,6 @@ function getNavbarHeader() {
             <li><a class="dropdown-item" href="http://tyeefellows.com/hobbies/photography.html">Photography</a></li>
         </ul>
     </li>
-    <li class="nav-item">
-        <a class="nav-link" href="http://edtracker.ca">Server</a>
-    </li>
     `;
 
     navBarContent.appendChild(navBarContentList);
