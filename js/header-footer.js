@@ -133,7 +133,7 @@ function getNavbarFooter() {
         <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             <svg class="bi" width="30" height="24"><use xlink:href="http://tyeefellows.com/aboue-me.html"></use></svg>
         </a>
-        <span class="mb-3 mb-md-0 text-muted">Created by Tyee Fellows © 2022 </span>
+        <span class="mb-3 mb-md-0 text-muted">Created by Tyee Fellows © 2023 </span>
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
