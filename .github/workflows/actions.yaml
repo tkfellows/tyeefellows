@@ -2,8 +2,8 @@ name: run code/googleScholar.py
 
 on:
   schedule:
-  - cron: '*/1 * * * *'
-    # - cron: '1 12 */1 * *' # At 12:01 on every day-of-month.
+    - cron: '*/1 * * * *'
+#     - cron: '1 12 */1 * *' # At 12:01 on every day-of-month.
 
 jobs:
   build:
@@ -36,8 +36,8 @@ jobs:
 #           git add -A
 #           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           
-#       - name: push changes
-#         uses: ad-m/github-push-action@v0.6.0
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           branch: main  
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
