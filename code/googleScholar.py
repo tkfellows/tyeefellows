@@ -1,6 +1,7 @@
 # Script to mirror google scholar webpage to update citations
 # May 28, 2023
 import requests
+import os
 
 url = 'https://scholar.google.com/citations?user=sbkVZRsAAAAJ'
 
