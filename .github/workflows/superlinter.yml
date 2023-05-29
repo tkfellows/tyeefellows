@@ -18,7 +18,8 @@ jobs:
       
       - name: Run Python Script
         run: |
-          python -m pip install requests
+          python -m pip install --upgrade pip
+          pip install -r code/requirements.txt
           python code/googleScholar.py
           
       - name: commit files
