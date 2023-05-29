@@ -3,7 +3,6 @@ name: Run Python Script
 on:
   schedule:
     - cron: '*/1 * * * *'
-#     - cron: '1 12 */1 * *' # At 12:01 on every day-of-month.
 
 jobs:
   run-python:
