@@ -14,5 +14,5 @@ headers = {
 r = requests.get(url, headers=headers)
 
 
-with open('googleScholar.html', 'w') as f:
+with open('tkfellows/tyeefellows-website/code/googleScholar.html', 'w') as f:
     f.write(r.text)
