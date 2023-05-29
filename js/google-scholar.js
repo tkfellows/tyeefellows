@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET','https://cors-anywhere.herokuapp.com/https://scholar.google.com/citations?user=sbkVZRsAAAAJ&hl=en');
+xhr.open('GET','code/googleScholar.html');
 xhr.responseType = 'document';
 
 xhr.onload = function() {
