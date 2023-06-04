@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET','code/googleScholar.html');
+xhr.open('GET','code/googleScholarTable.html');
 xhr.responseType = 'document';
 
 xhr.onload = function() {
@@ -21,4 +21,3 @@ xhr.onerror = function()
     console.error(xhr.status, xhr.statusText);
 }
 xhr.send();
-// Test
