@@ -15,5 +15,5 @@ headers = {
 gs_html = requests.get(url, headers=headers)
 doc = BeautifulSoup(gs_html.text, "html.parser")
 
-with open('code/googleScholarTable.html', 'w') as f:
+with open('python/googleScholarTable.html', 'w') as f:
     f.write(str(doc.select("#gsc_rsb_st")))
