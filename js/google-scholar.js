@@ -21,3 +21,4 @@ xhr.onerror = function()
     console.error(xhr.status, xhr.statusText);
 }
 xhr.send();
+// Test
