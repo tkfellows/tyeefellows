@@ -1,5 +1,5 @@
 var xhr = new XMLHttpRequest();
-xhr.open('GET','code/googleScholarTable.html');
+xhr.open('GET','python/googleScholarTable.html');
 xhr.responseType = 'document';
 
 xhr.onload = function() {
